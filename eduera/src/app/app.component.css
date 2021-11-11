@@ -1,0 +1,333 @@
+body {
+    height: 100vh;
+    background-color: #7D3C98
+}
+
+.division {
+    display: flex;
+    padding: 30px;
+}
+
+h1 {
+    padding: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.e {
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.menu {
+    position: relative;
+    margin-top: 20px;
+    height: 600px;
+    width: 400px;
+    box-shadow: 5px 0 0 white;
+}
+
+.menu ul {
+    position: relative;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+
+.menu ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+.menu ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul li a .icono {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.menu ul li a .icono i {
+    position: relative;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.menu ul li a .opcion {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+
+.menu ul li.active {
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.menu ul li.active a::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 white;
+}
+
+.menu ul li.active a::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 15px -15px 0 white;
+}
+
+.carta {
+    width: 1000px;
+    position: relative;
+}
+
+.carta-menu {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 45px;
+    position: relative;
+    width: 200px;
+    height: 250px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+}
+
+.carta-menu .carta-menu-content {
+    margin-top: 20px;
+    margin-left: 35px;
+    color: white;
+}
+
+.muteado {
+    font-size: 15px;
+    color: gray;
+}
+
+.start {
+    color: white;
+    width: 75px;
+    height: 40px;
+    background-color: #FF6800;
+    border-radius: 10px;
+    border: none;
+}
+
+.carta-menu>p {
+    margin-top: 25px;
+}
+
+.carta-menu::after {
+    content: '';
+}
+
+.card {
+    border: 0px;
+    height: 700px;
+    border-radius: 15px;
+}
+
+.bell {
+    background-color: #FF6800;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.user {
+    background-color: white;
+    border: 0px;
+    width: 25px;
+    height: 25px;
+}
+
+.bell i {
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.search {
+    border-radius: 20px;
+    background-color: #E8E8E7;
+}
+
+.box {
+    width: 750px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.box>i {
+    font-size: 20px;
+    color: #777;
+}
+
+.box>input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: #E8E8E7;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.cartas {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.carta1 {
+    width: 450px;
+    height: 300px;
+    border-radius: 35px;
+}
+
+.carta1>img {
+    width: 450px;
+    height: 300px;
+    border-radius: 35px;
+}
+
+.carta2 {
+    padding-left: 25px;
+    width: 450px;
+    height: 300px;
+    border-radius: 35px;
+}
+
+.carta2>img {
+    width: 450px;
+    height: 300px;
+    border-radius: 35px;
+}
+
+.cartitas {
+    display: flex;
+}
+
+.cartita {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.cartita>img {
+    object-fit: cover;
+    width: 100px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.flecha {
+    width: 100px;
+    height: 180px;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+.flecha>button {
+    border: 1px solid;
+    border-radius: 10px;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.texto {
+    display: flex;
+    position: absolute;
+    color: white;
+}
+
+.foto {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.foto>img {
+    clip-path: circle();
+    width: 50px;
+}
+
+.usuario {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.minutos {
+    padding-top: 25px;
+    padding-left: 150px;
+}
+
+.minutos>button {
+    border: 0px;
+    display: flex;
+    border-radius: 15px;
+    align-content: flex-start;
+    background-color: #FF6800;
+    color: white;
+}
+
+.info {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.info .textInfo {
+    padding: 10px;
+    width: 390px;
+    height: 80px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.cartita .fotoCartitas {
+    position: absolute;
+    padding-left: 25px;
+    padding-top: 65px;
+}
+
+.cartita .fotoCartitas>img {
+    clip-path: circle();
+    width: 50px;
+}
