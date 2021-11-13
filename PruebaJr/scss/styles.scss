@@ -1,0 +1,69 @@
+$dark: #503E9D;
+$primary: #fff;
+$warning:#FB6D3A;
+$component-active-color: #FB6D3A !important;
+$component-active-bg: $primary;
+$card-bg: #5543A5;
+$border-radius: 3rem;
+$card-border-color: none;
+$btn-border-radius: .5rem;
+$badge-color: $primary;
+$font-family-sans-serif: 'Poppins',
+-apple-system,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+"Liberation Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !default;
+.recuadro {
+    position: relative;
+    z-index: 1;
+}
+
+.herprofile {
+    background-image: url('../images/dianne-card.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hisprofile {
+    background-image: url('../images/dianne-card2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.degrade::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    border-radius: $border-radius;
+    z-index: -1;
+}
+
+.b-tx {
+    max-width: 368px;
+    max-height: 88px;
+    border-radius: 1rem;
+}
+
+.cl {
+    background: rgba(60, 17, 134, 0.3);
+    backdrop-filter: blur(36px);
+}
+
+.cp {
+    background: rgba(148, 37, 57, 0.3);
+    backdrop-filter: blur(36px);
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
