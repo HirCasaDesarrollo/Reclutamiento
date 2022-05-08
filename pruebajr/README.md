@@ -21,13 +21,13 @@ npm run lint
 ```
 
 ### Customize configuration
-Informacion sobre el proyecto:
+Información sobre el proyecto:
 
  * Fue realizado con Vue
- * No se utilizo ningun framework, css puro.
- * Diseño apto para actualizr a responsive.
+ * No se utilizo ningún framework, css puro.
+ * Diseño apto para actualizar a responsive.
  
- Nota: No se utilizo ningun material previamente asignado, todo fue creado desde cero.
+ Nota: No se utilizo ningún material previamente asignado, todo fue creado desde cero.
  
 Adjunto imagen de la tarea terminada: 
 ![Diseño](/pruebajr/src/assets/img/Diseño.PNG)
