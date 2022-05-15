@@ -1,0 +1,16 @@
+.main-container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.lessons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow-icon {
+  background: #f6f6f5 !important;
+  padding: 1.3rem;
+  border-radius: 15px;
+  margin-left: 1rem;
+}

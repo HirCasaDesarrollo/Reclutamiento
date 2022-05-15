@@ -1,0 +1,27 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #ffc883 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-x {
+  background: #503e9d;
+  width: 1304px;
+  height: 928px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 76%;
+  height: 95%;
+  background: white;
+  border-radius: 30px;
+}

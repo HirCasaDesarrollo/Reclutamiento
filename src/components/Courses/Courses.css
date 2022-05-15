@@ -1,0 +1,13 @@
+.container {
+  margin: 0 auto;
+}
+
+.courses-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses-container h1 {
+  font-size: 2rem;
+}

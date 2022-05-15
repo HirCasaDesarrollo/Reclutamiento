@@ -1,0 +1,28 @@
+.lupa {
+  position: absolute;
+  top: 7.9rem;
+  padding-left: 1rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 3rem auto;
+}
+
+.bell-icon {
+  background: #fb6d3a;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.user-icon {
+  padding-left: 8rem;
+}
+
+.icons {
+  font-size: 1.2rem;
+}
