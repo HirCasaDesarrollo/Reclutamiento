@@ -1,0 +1,34 @@
+.card-lessons-container {
+  width: 96px;
+  height: 150px;
+  margin-top: 1rem;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.circle {
+  border: 3px solid #fb6d3a;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 0.2rem;
+}
+
+.circle img {
+  width: 60px;
+}
+
+.live {
+  color: white;
+  background: #fb6d3a;
+  border-radius: 5px;
+  padding: 0.1rem 0.6rem;
+  text-align: center;
+  transform: translateY(-10px);
+}

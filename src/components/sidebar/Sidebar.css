@@ -1,0 +1,97 @@
+#sidebar-wrapper {
+  width: 18rem;
+  text-align: center;
+  padding-right: 2rem;
+}
+
+h4 {
+  padding: 0;
+}
+.iconos {
+  float: left;
+  padding-right: 2rem;
+}
+.title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 6rem 3rem 6rem 1.5rem;
+}
+.title span:nth-child(1) {
+  background-color: #6553b2;
+  padding: 0.2rem 0.8rem;
+  border-radius: 10px;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+#support-container {
+  width: 85%;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: #5b49a9;
+  border-radius: 30px;
+  padding: 1.7rem 0 0 0;
+}
+
+#support-container p {
+  color: #9084c4;
+}
+
+#support-container button {
+  background: #fb6d3a;
+  border: none;
+  float: left;
+  margin-left: 2.3rem;
+}
+
+#support-container img {
+  background: #6553b2;
+  border-radius: 200px 0px 0px 0px;
+  padding: 2rem 0 0 2rem;
+  float: right;
+  width: 130px;
+}
+
+ul li .active {
+  color: #fb6d3a !important;
+  border-radius: 100px 0 0 100px !important;
+  width: 100%;
+}
+
+ul li {
+  width: 107%;
+  padding-left: 1.5rem;
+  margin: 0 auto;
+  text-align: left;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* 
+bordes redondos en el menu
+
+ul li .active::after,
+ul li .active::before {
+  content: "";
+  position: absolute;
+  top: 305px;
+  left: 36rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 0 0 25px 0;
+  z-index: 10;
+  background: #6553b2;
+}
+ul li .active::before {
+  top: auto;
+  bottom: 630px;
+  border-radius: 0 25px 0 0;
+}
+ul li .active:target::after {
+  box-shadow: 0 25px 0 0 #fdfff4;
+}
+ul li .active:target::before {
+  box-shadow: 0 -25px 0 0 #fdfff4;
+} */
