@@ -1,0 +1,11 @@
+Proyecto Prueba Reclutamiento HIR Casa Desarrollador Back-End Jr
+El proyecto esta desarrollado en Visual Studio 2017, es una aplicación web ASP.NET con patrón MVC e implementanto Entity Framework, 
+con conexión a base de datos en SQL Server 2012, la autentificación  para acceso en Sql Server Authentication.
+
+El proyecto esta desarrollado en tres Capas:
+
+1.UI - capa de interface de usuario
+2.Business - Capa de reglas de negocio
+3.Data - Capa de datos
+
+
