@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Prueba_BackEnd_Jr.Models.Cliente>
+@{
+    ViewData["Title"] = "Requerimiento 4";
+}
+
+<div>
+    <h2>Requerimiento 4</h2>
+    <p class="fst-italic">"Actualizar el estatus de todos los clientes de acuerdo con los siguientes criterios:"</p>
+    <ul class="fst-italic">
+        <li>Si el residuo de los totales es igual a la suma de los pagos del cliente se considera un cliente “Al corriente”.</li>
+        <li>Si el total es menor a la suma de los pagos se considera al cliente como “Adeudo”</li>
+        <li>Si la suma de los pagos es igual a 0 se considera al cliente como “Cancelación”</li>
+    </ul>
+    <p>Presion el boton de "Solucionar requerimiento" para aplicar la solucion.</p>
+    <p class="bg-info fst-italic p-2 m-1 text-center">@ViewData["mensaje"]</p>
+
+    <div class="row mt-4">
+        <div class="col-12 col-md-6">
+            <h3>Tabla Clientes</h3>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-end">
+            <a class="text-center text-md-end btn btn-primary" asp-area="" asp-controller="Home" asp-action="Prueba4Solucion">Solucionar requerimiento</a>
+        </div>
+    </div>
+
+    <table class="table text-center">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Correo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Edad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MontoSolicitado)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Aprobacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaAlta)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.Telefono)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.Correo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.Edad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.MontoSolicitado)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.Estatus)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.Aprobacion )
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.FechaAlta)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
