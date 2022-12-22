@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido</h1>
+    <p>Este es un proyecto realizado para una prueba del puesto de trabajo de Backend Jr en la empresa <a href="https://hircasa.com/" style="color:darkorange">Hir Casa Financiamiento inmobiliario</a> </p>
+    <p class="text-start">Los requerimiento que enlistan en la prueba estan disponibles en el nav de la cabecera con su descripcion y solución</p>
+    <div class=" container text-start">
+        <p>los programas (con sus respectivas versiones) que se utilizaron fuero:</p>
+        <ul>
+            <li>Microsoft Visual Studio Community 2022</li>
+            <li>ASP.Net Core 6 MVC </li>
+            <li>Entity Framework 6 (Code First)</li>
+            <li>SqlServer 2022 - version LocalDB (cambia la cadena de conexión en app.settings para utilizar el SQL Server de su preferencia)</li>
+            <li>
+                Paquetes Nuget utilizados:
+                <ul>
+                    <li>Microsoft.EntityFrameworkCore (6.0.12)</li>
+                    <li>Microsoft.EntityFrameworkCore.SqlServer (6.0.12)</li>
+                    <li>Microsoft.EntityFrameworkCore.Tools (6.0.12)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    @if (ViewData["connError"] is null)
+    {
+            <p class="text-success m-3">@ViewData["mensaje"]</p>
+        <div class="border border-danger m-1 p-2 border-2">
+            <h4>Reiniciar la base de datos</h4>
+            <p>Toca el boton de reinicio de la base de datos para recrear la DB con los datos por defecto y volver a comprobar los requerimientos</p>
+
+            <a class="text-center btn btn-danger" asp-area="" asp-controller="Home" asp-action="Reinicio">Reiniciar DB</a>
+        </div>
+    }
+    else
+    {
+        <div class="border border-warning m-1 p-2 border-2">
+            <h4>Sin conexión</h4>
+            <p>Uups, parece que tenemos problemas con la conexión a la Base de datos,verifica los siguientes puntos y pulsa el boton para verificar la conexión o reinicia la applicación</p>
+            <ul class="text-start mx-2">
+                <li>Verifica la Version de SQL Server, Esta web fue realizada en SQL Server 2022 - version LocalDb (instalada por defecto junto con Visual Studio Comunity 2022)</li>
+                <li>Verifica que el StringConnection este bien (si es que fue modificado) o que sea el de por defecto (LocalDB) </li>
+                <li>Verifica que hayas puesto el <b>"Update-Database"</b> antes en la consola de paquetes de Visual Studio (Teniendo instalado el paquete Nuget EF Core tools v. 6.0.12)</li>
+            </ul>
+
+            <a class="text-center btn btn-warning" asp-area="" asp-controller="Home" asp-action="Conexion">Verificar conexión</a>
+        </div>
+    }
+
+</div>
