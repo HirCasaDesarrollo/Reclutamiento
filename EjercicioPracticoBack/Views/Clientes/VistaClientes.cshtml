@@ -1,0 +1,41 @@
+﻿@using EjercicioPracticoBack.Models
+@model List<Clientes>
+@{
+    ViewBag.Title = "VistaClientes";
+}
+
+<h2>VistaClientes</h2>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <td>IDCliente</td>
+            <td>Nombre</td>
+            <td>Telefono</td>
+            <td>Correo Electronico</td>
+            <td>Edad</td>
+            <td>Monto Solicitud</td>
+            <td>Estatus</td>
+            <td>Aprobacion</td>
+            <td>Fecha Alta</td>
+        </tr>
+
+
+    </thead>
+
+    <tbody>
+        @foreach(var i in Model)
+            {
+        <tr>
+            <td>@i.ClienteId</td>
+            <td>@i.Nombre</td>
+            <td>@i.Telefono</td>
+            <td>@i.Correo</td>
+            <td>@i.Edad</td>
+            <td>@i.MontoSolicitud</td>
+            <td>@i.Estatus</td>
+            <td>@i.Aprobacion</td>
+            <td>@i.FechaAlta</td>
+        </tr>
+            }
+    </tbody>
+</table>

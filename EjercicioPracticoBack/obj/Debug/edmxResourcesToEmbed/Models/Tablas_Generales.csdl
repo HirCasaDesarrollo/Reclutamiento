@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ArchivosExcelModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Ajuste">
+    <Key>
+      <PropertyRef Name="AjusteId" />
+    </Key>
+    <Property Name="AjusteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" Nullable="false" />
+    <Property Name="MontoTotal" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Adedudo" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Clientes" Relationship="Self.fk_Ajustes" FromRole="Ajuste" ToRole="Clientes" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ClienteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Edad" Type="Int32" Nullable="false" />
+    <Property Name="MontoSolicitud" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Estatus" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Aprobacion" Type="Int32" Nullable="false" />
+    <Property Name="FechaAlta" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Ajuste" Relationship="Self.fk_Ajustes" FromRole="Clientes" ToRole="Ajuste" />
+    <NavigationProperty Name="Pagos" Relationship="Self.fk_Pagos" FromRole="Clientes" ToRole="Pagos" />
+  </EntityType>
+  <EntityType Name="Pagos">
+    <Key>
+      <PropertyRef Name="PagoId" />
+    </Key>
+    <Property Name="PagoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" Nullable="false" />
+    <Property Name="MontoPagado" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Aplicado" Type="Int32" Nullable="false" />
+    <Property Name="FechaPago" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Clientes" Relationship="Self.fk_Pagos" FromRole="Pagos" ToRole="Clientes" />
+  </EntityType>
+  <Association Name="fk_Ajustes">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Ajuste" Type="Self.Ajuste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="ClienteId" />
+      </Principal>
+      <Dependent Role="Ajuste">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Pagos">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Pagos" Type="Self.Pagos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="ClienteId" />
+      </Principal>
+      <Dependent Role="Pagos">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ArchivosExcelEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Ajuste" EntityType="Self.Ajuste" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="Pagos" EntityType="Self.Pagos" />
+    <AssociationSet Name="fk_Ajustes" Association="Self.fk_Ajustes">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Ajuste" EntitySet="Ajuste" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Pagos" Association="Self.fk_Pagos">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Pagos" EntitySet="Pagos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

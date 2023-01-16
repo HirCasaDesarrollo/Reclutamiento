@@ -1,0 +1,40 @@
+CREATE  DATABASE ArchivosExcel
+
+
+USE ArchivosExcel
+
+CREATE TABLE Clientes(
+ClienteId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+Nombre VARCHAR(50) NOT NULL,
+Telefono VARCHAR(20), 
+Correo VARCHAR(50) NOT NULL,
+Edad INT NOT NULL,
+MontoSolicitud DECIMAL NOT NULL,
+Estatus VARCHAR(15) NOT NULL,
+Aprobacion INT NOT NULL,
+FechaAlta DATETIME NOT NULL
+);
+
+
+CREATE TABLE Pagos(
+PagoId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+ClienteId INT NOT NULL,
+MontoPagado DECIMAL NOT NULL, 
+Aplicado INT NOT NULL,
+FechaPago DATETIME NOT NULL,
+
+CONSTRAINT fk_Pagos FOREIGN KEY(ClienteId) REFERENCES Clientes(ClienteId)
+
+);
+
+
+CREATE TABLE Ajuste(
+AjusteId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+ClienteId INT NOT NULL,
+MontoTotal DECIMAL NOT NULL, 
+Adedudo MONEY NOT NULL,
+
+CONSTRAINT fk_Ajustes FOREIGN KEY(ClienteId) REFERENCES Clientes(ClienteId)
+
+);
+
