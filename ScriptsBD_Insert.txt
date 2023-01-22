@@ -1,0 +1,77 @@
+use HirCasa;
+
+
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values ('Alyssa   Macdonald  King', '477-1943', 'magnis.dis@yahoo.couk', 24, 74300.04, '?', '?', 'Dec 4, 2021');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values ('Irene   Carey    Spears', '1-153-173-1315', 'donec.feugiat@protonmail.com', 18, 1213748.2, '?', '?', 'Sep 16, 2022');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values ('Hope          Best Charity', '1-810-927-0758', 'sed.neque@yahoo.edu', 45, 378121.58, '?', '?', 'Sep 18, 2021');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values ('  Kirsten   Glover   Carrison', '488-7837', 'ipsum.ac.mi@google.edu', 39, 22430.14, '?', '?', 'Feb 6, 2022');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values ('Cheyenne Norton       Mcdonald', '1-638-481-3863', 'nulla.eu@yahoo.ca', 28, 664419.39, '?', '?', 'Apr 1, 2022');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values (' Kirk Nichols Douglas', '348-0176', 'donec@yahoo.edu', 25, 980000.5, '?', '?', 'Sep 24, 2022');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values (' Blaze  Massey    Adams  ', '1-483-678-4909', 'sed@aol.edu', 56, 276899.83, '?', '?', 'Jul 9, 2022');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values ('Raphael    Wright Allen', '942-4114', 'dolor.donec.fringilla@aol.couk', 83, 778564, 'Adeudo', '1', 'Jul 28, 2022');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values ('   Pamela   Hanson  Love', '1-760-505-0882', 'sed@yahoo.org', 60, 331876, '?', '?', 'Jan 13, 2022');
+insert into Clientes (Nombre, Telefono, Correo, Edad, MontoSolicitud, Status, Aprobacion, FechaAlta) 
+values ('Lois  Byers                Parson', '1-773-637-7287', 'eu.eleifend.nec@yahoo.com', 37, 634567.2, '?', '?', 'Sep 10, 2022');
+
+
+
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (8, 898960.61, 1, 'Oct 11, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (10, 498882.82, 1, 'Aug 14, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (2, 631239.4, 1, 'Dec 26, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (1, 43000, 1, 'Oct 18, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (5, 88656.6, 0, 'Sep 6, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (6, 254661.68, 1, 'Jun 14, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (2, 50846.04, 1, 'Jul 20, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (7, 67764.01, 1, 'Sep 16, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (6, 669890.82, 1, 'Oct 3, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (1, 2700, 1, 'Oct 27, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (9, 331876, 1, 'Jan 24, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (8, 787879.68, 0, 'Jan 27, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (8, 13777.71, 1, 'Sep 14, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (4, 8372.77, 1, 'Feb 7, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (1, 7298, 1, 'Sep 6, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (4, 2572.31, 1, 'May 6, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (10, 447671.39, 1, 'Nov 25, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (6, 197670.4, 1, 'Oct 14, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (10, 490376.34, 1, 'Oct 14, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (2, 326830.23, 1, 'Dec 21, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (3, 1713.89, 0, 'May 7, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (1, 1000.04, 1, 'Apr 29, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (3, 66661.37, 1, 'Dec 6, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (2, 238787.18, 0, 'Feb 22, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (5, 255220.05, 1, 'Mar 15, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (3, 68767.62, 1, 'Oct 28, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (7, 137308.5, 1, 'Dec 13, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (1, 20000, 1, 'Aug 3, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (2, 14578.38, 1, 'Oct 22, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (6, 64488.01, 0, 'Dec 24, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (4, 8264.72, 1, 'May 25, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (3, 348887.74, 1, 'Dec 6, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (2, 555687.92, 1, 'Oct 9, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (6, 537766.32, 0, 'Oct 19, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (10, 327769.86, 1, 'Nov 22, 2021');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (2, 31543.76, 0, 'Aug 12, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (2, 255678.57, 1, 'Sep 22, 2022');
+INSERT INTO Pagos (ClienteId, MontoPagado, Aplicado, FechaPago) Values (5, 366888.15, 1, 'Apr 9, 2022');
+
+
+
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (8, 912738, -134174 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (2,  0, 0 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (9,  0, 0 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (7,  0, 0 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (3,  0, 0 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (4,  0, 0 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (6,  0, 0 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (10, 0, 0 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (1,  0, 0 );
+INSERT INTO Ajustes (ClienteId, MontoTotal, Adeudo) Values (5,  0, 0 );
