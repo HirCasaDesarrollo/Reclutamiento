@@ -1,0 +1,88 @@
+﻿model List<Prueba.Models.ViewModels.TablaViweModel>
+    @{
+        ViewBag.Title = "Clientes";
+    }
+
+    <h2>@ViewBag.Tittle</h2>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Edad</th>
+                    <th>MontoSolicitado</th>
+                    <th>Estatus</th>
+                    <th>Aprobacion</th>
+                    <th>FechaAlta</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>@item.Id</th>
+                        <th>@item.Nombre</th>
+                        <th>@item.Telefono</th>
+                        <th>@item.Correo</th>
+                        <th>@item.Edad</th>
+                        <th>@item.MontoSolicitado</th>
+                        <th>@item.Estatus</th>
+                        <th>@item.Aprobacion</th>
+                        <th>@item.FechaAlta</th>
+                    </tr>
+
+                }
+            </table>
+        </div>
+    </div>
+    <button id="miBoton">Hacer algo</button>
+    <script>
+        $("#miBoton").click(function () {
+            $.ajax({
+                url: "/Tabla/EjecutarAccion",
+                type: "POST",
+                success: function (resultado) {
+                    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Edad</th>
+                    <th>MontoSolicitado</th>
+                    <th>Estatus</th>
+                    <th>Aprobacion</th>
+                    <th>FechaAlta</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>@item.Id</th>
+                        <th>@item.Nombre</th>
+                        <th>@item.Telefono</th>
+                        <th>@item.Correo</th>
+                        <th>@item.Edad</th>
+                        <th>@item.MontoSolicitado</th>
+                        <th>@item.Estatus</th>
+                        <th>@item.Aprobacion</th>
+                        <th>@item.FechaAlta</th>
+                    </tr>
+
+                }
+            </table>
+        </div>
+    </div>
+                }
+            });
+        });
+    </script>
+   
+</Prueba.Models.ViewModels.TablaViweModel>
+
+<Prueba.Models.ViewModels.TablaPago>
+
+</Prueba.Models.ViewModels.TablaPago>
