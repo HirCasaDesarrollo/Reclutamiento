@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Ajustes">
+    <Key>
+      <PropertyRef Name="AjusteId" />
+    </Key>
+    <Property Name="AjusteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" />
+    <Property Name="MontoTotal" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Adeudo" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ClienteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefono" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Edad" Type="Int32" />
+    <Property Name="MontoSolicitud" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Estatus" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Aprobaciòn" Type="Int32" />
+    <Property Name="FechaAlta" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Pagos">
+    <Key>
+      <PropertyRef Name="PagoId" />
+    </Key>
+    <Property Name="PagoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" />
+    <Property Name="MontoPagado" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Aplicado" Type="Int32" />
+    <Property Name="FechaPago" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityContainer Name="PruebaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Ajustes" EntityType="Self.Ajustes" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="Pagos" EntityType="Self.Pagos" />
+  </EntityContainer>
+</Schema>
