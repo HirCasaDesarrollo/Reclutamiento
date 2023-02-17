@@ -1,0 +1,16 @@
+Proyecto realizado en API .NET 6 con el ORM Entity Framework y Code First, se pueden ejecutar los metodos desde Swagger
+
+Para crear una nueva migracion 
+
+1 Cambiar la de cadena de conexion en appsettings
+
+2 Escribir el comando en la consola de adm de paquetes  
+
+Add-Migration version-de-la-migracion
+
+3 Ejecutar el proyecto
+
+
+Para trabajar con la migracion existente solo es necesario cambiar la de cadena de conexion en appsettings y ejecutar el proyecto
+
+
