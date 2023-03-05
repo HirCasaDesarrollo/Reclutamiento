@@ -1,0 +1,14 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/Source/HIRCASA.MX.Reclutamiento/.vs
+/Source/HIRCASA.MX.Reclutamiento/HIRCASA.MX.WEB.API.Credits/bin/Debug/net7.0
+/Source/HIRCASA.MX.Reclutamiento/HIRCASA.MX.WEB.API.Credits/obj
+/Source/HIRCASA.MX.Reclutamiento/HIRCASA.MX.CORE.LIB.INFRASTRUCTURE/bin/Debug/net7.0
+/Source/HIRCASA.MX.Reclutamiento/HIRCASA.MX.CORE.LIB.INFRASTRUCTURE/obj
+/Source/HIRCASA.MX.Reclutamiento/HIRCASA.MX.CORE.LIB.DOMAIN/obj
+/Source/HIRCASA.MX.Reclutamiento/HIRCASA.MX.CORE.LIB.DOMAIN/bin/Debug/net7.0
+/Source/HIRCASA.MX.Reclutamiento/HIRCASA.MX.CORE.LIB.APPLICATION/obj
+/Source/HIRCASA.MX.Reclutamiento/HIRCASA.MX.CORE.LIB.APPLICATION/bin/Debug/net7.0
+/.vs

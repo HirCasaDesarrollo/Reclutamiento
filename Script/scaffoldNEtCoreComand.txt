@@ -1,0 +1,3 @@
+
+
+Scaffold-DbContext "data source=COR-L-AJCONTRER\SQLEXPRESSVER13;initial catalog=ClientsHirCasaReclutamiento;Integrated Security=true;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities -ContextDir "..\HIRCASA.MX.CORE.LIB.INFRASTRUCTURE\Persistence" -ContextNamespace HIRCASA.MX.CORE.LIB.INFRASTRUCTURE.Persistence -Tables Clientes,Pagos,Ajustes -DataAnnotations -Context "AppDataContext" -v -force
