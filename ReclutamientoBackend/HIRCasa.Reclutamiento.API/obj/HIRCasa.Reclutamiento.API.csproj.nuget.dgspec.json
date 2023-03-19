@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.API\\HIRCasa.Reclutamiento.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.API\\HIRCasa.Reclutamiento.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.API\\HIRCasa.Reclutamiento.API.csproj",
+        "projectName": "HIRCasa.Reclutamiento.API",
+        "projectPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.API\\HIRCasa.Reclutamiento.API.csproj",
+        "packagesPath": "C:\\Users\\pumam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pumam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Core\\HIRCasa.Reclutamiento.Core.csproj": {
+                "projectPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Core\\HIRCasa.Reclutamiento.Core.csproj"
+              },
+              "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Entities\\HIRCasa.Reclutamiento.Entities.csproj": {
+                "projectPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Entities\\HIRCasa.Reclutamiento.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23122.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Core\\HIRCasa.Reclutamiento.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Core\\HIRCasa.Reclutamiento.Core.csproj",
+        "projectName": "HIRCasa.Reclutamiento.Core",
+        "projectPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Core\\HIRCasa.Reclutamiento.Core.csproj",
+        "packagesPath": "C:\\Users\\pumam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pumam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Entities\\HIRCasa.Reclutamiento.Entities.csproj": {
+                "projectPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Entities\\HIRCasa.Reclutamiento.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23122.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Entities\\HIRCasa.Reclutamiento.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Entities\\HIRCasa.Reclutamiento.Entities.csproj",
+        "projectName": "HIRCasa.Reclutamiento.Entities",
+        "projectPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Entities\\HIRCasa.Reclutamiento.Entities.csproj",
+        "packagesPath": "C:\\Users\\pumam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pumam\\source\\repos\\pumamay\\Reclutamiento\\ReclutamientoBackend\\HIRCasa.Reclutamiento.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pumam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23122.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

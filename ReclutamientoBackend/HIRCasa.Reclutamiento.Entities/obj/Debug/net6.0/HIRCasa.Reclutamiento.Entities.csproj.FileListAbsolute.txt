@@ -1,0 +1,12 @@
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\bin\Debug\net6.0\HIRCasa.Reclutamiento.Entities.deps.json
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\bin\Debug\net6.0\HIRCasa.Reclutamiento.Entities.dll
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\bin\Debug\net6.0\HIRCasa.Reclutamiento.Entities.pdb
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\HIRCasa.Reclutamiento.Entities.csproj.AssemblyReference.cache
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\HIRCasa.Reclutamiento.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\HIRCasa.Reclutamiento.Entities.AssemblyInfoInputs.cache
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\HIRCasa.Reclutamiento.Entities.AssemblyInfo.cs
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\HIRCasa.Reclutamiento.Entities.csproj.CoreCompileInputs.cache
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\HIRCasa.Reclutamiento.Entities.dll
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\refint\HIRCasa.Reclutamiento.Entities.dll
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\HIRCasa.Reclutamiento.Entities.pdb
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Entities\obj\Debug\net6.0\ref\HIRCasa.Reclutamiento.Entities.dll
