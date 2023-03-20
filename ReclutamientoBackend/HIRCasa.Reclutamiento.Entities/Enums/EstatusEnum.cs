@@ -8,12 +8,14 @@ using System.Threading.Tasks;
 
 namespace HIRCasa.Reclutamiento.Entities.Enums
 {
-    [JsonConverter(typeof(StringEnumConverter))]
+    [Flags]
     public enum EstatusType : int
     {
         Pendiente = 0,
         EnProceso = 1,
         Pagado =2,
-        Adeudo = 3
+        Adeudo = 3,
+        AlCorriente = 4,
+        Cancelado = 5
     }
 }

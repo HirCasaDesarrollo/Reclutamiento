@@ -21,6 +21,8 @@ public static class DependencyInjection
         services.AddTransient(typeof(IRepository<>), typeof(BaseRepository<>));
         services.AddTransient(typeof(IReadRepository<>), typeof(BaseRepository<>));
         services.AddTransient<IClienteRepository, ClienteRepository>();
+        services.AddTransient<IAjustesRepository, AjustesRepository>();
+        services.AddTransient<IPagosRepository, PagosRepository>();
 
         return services;
     }
