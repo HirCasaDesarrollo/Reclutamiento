@@ -1,0 +1,17 @@
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.csproj.AssemblyReference.cache
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.AssemblyInfoInputs.cache
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.AssemblyInfo.cs
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.csproj.CoreCompileInputs.cache
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\bin\Debug\net6.0\HIRCasa.Reclutamiento.Core.deps.json
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\bin\Debug\net6.0\HIRCasa.Reclutamiento.Core.runtimeconfig.json
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\bin\Debug\net6.0\HIRCasa.Reclutamiento.Core.dll
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\bin\Debug\net6.0\HIRCasa.Reclutamiento.Core.pdb
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\bin\Debug\net6.0\HIRCasa.Reclutamiento.Entities.dll
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\bin\Debug\net6.0\HIRCasa.Reclutamiento.Entities.pdb
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.csproj.CopyComplete
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.dll
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\refint\HIRCasa.Reclutamiento.Core.dll
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.pdb
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\HIRCasa.Reclutamiento.Core.genruntimeconfig.cache
+C:\Users\pumam\source\repos\pumamay\Reclutamiento\ReclutamientoBackend\HIRCasa.Reclutamiento.Core\obj\Debug\net6.0\ref\HIRCasa.Reclutamiento.Core.dll
