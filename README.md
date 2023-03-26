@@ -1,3 +1,10 @@
 # HIRCasa
-Recluatamiento HIR-Casa
+    Recluatamiento HIR-Casa
 
+## Prueba Técnica
+
+    Vacante: Programador dotNet
+
+### Postulante
+
+    Guillermo Rodríguez.
